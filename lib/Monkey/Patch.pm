@@ -1,6 +1,6 @@
 package Monkey::Patch;
 BEGIN {
-  $Monkey::Patch::VERSION = '0.02';
+  $Monkey::Patch::VERSION = '0.03';
 }
 
 use warnings;
@@ -46,7 +46,7 @@ Monkey::Patch - Scoped monkeypatching (you can at least play nice)
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

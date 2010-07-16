@@ -1,6 +1,6 @@
 package Monkey::Patch::Handle::Class;
 BEGIN {
-  $Monkey::Patch::Handle::Class::VERSION = '0.02';
+  $Monkey::Patch::Handle::Class::VERSION = '0.03';
 }
 use strict;
 use warnings;

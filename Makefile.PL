@@ -19,8 +19,12 @@ my %WriteMakefileArgs = (
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
   'NAME' => 'Monkey::Patch',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.02',
+  'PREREQ_PM' => {
+    'Exporter' => '0',
+    'SUPER' => '0',
+    'Sub::Delete' => '0'
+  },
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

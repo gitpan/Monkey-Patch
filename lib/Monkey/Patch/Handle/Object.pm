@@ -1,6 +1,6 @@
 package Monkey::Patch::Handle::Object;
 BEGIN {
-  $Monkey::Patch::Handle::Object::VERSION = '0.02';
+  $Monkey::Patch::Handle::Object::VERSION = '0.03';
 }
 use strict;
 use warnings;

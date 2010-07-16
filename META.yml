@@ -12,4 +12,8 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Monkey-Patch
-version: 0.02
+requires:
+  Exporter: 0
+  SUPER: 0
+  Sub::Delete: 0
+version: 0.03
