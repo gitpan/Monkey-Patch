@@ -1,6 +1,6 @@
 package Monkey::Patch::Handle;
 BEGIN {
-  $Monkey::Patch::Handle::VERSION = '0.01';
+  $Monkey::Patch::Handle::VERSION = '0.02';
 }
 use Scalar::Util qw(weaken);
 use Sub::Delete;
